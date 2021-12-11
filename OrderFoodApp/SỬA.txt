@@ -1,0 +1,20 @@
+-Sửa các phần word cô nhắc
+-Thay hết các Ảnh và Footer+sửa viết thêm các chức năng qua lại giữa các Footer 
+-Thay các ảnh Prototype vì có nối thêm
+-Thêm Link đồ án
+
+
+-Thay hết ảnh gd
+-Thay ảnh Prototype
+-Thêm chức năng Footer và các phần cần sửa
+
+
+                        <Frame BackgroundColor="#fff" BorderColor="#fff" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="15">
+                            <StackLayout Orientation="Horizontal">
+                                <Frame BackgroundColor="#fff" HeightRequest="40" WidthRequest="40" CornerRadius="15" Padding="0" Margin="5">
+                                    <Image Source="email.png" Aspect="AspectFill" Margin="0"/>
+                                </Frame>
+
+                                <local:CustomEntry Placeholder="Email" FontSize="15" TextColor="#6CB0C5" FontAttributes="None" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+                            </StackLayout>
+                        </Frame>
